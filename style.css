@@ -226,3 +226,141 @@
     margin-top: 13px;
     width: 10px;
 }
+
+/* footer design */
+
+#footer {
+    position: relative;
+    height: 150vh;
+    background: url(https://th.bing.com/th/id/R.d288782d2ce4bf73380cae051428f82c?rik=S7a%2fHK0lPXzdJQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f199397-Audi-RS6-Audi_RS4_Avant-Audi_RS6_Avant-Quattro-audi_quattro-camouflage.jpg&ehk=AS%2bnAjS1tntgx5K6a3X3pp3id7iAOAgwW6w9ydOviTQ%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100% 70%;
+    background-position: center;
+}
+
+#overlay-top {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 0%;
+    background: linear-gradient(black, transparent);
+}
+
+#footer #performance-info-2-heading {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-weight: 200;
+}
+
+#footer #performance-info-2-heading span {
+    z-index: -1;
+    position: absolute;
+    left: -8%;
+    padding: 0 10px;
+    background-color: red;
+}
+
+#footer #performance-info-2-des {
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.815);
+    text-align: center;
+    width: 45%;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
+
+#request-info {
+    position: relative;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#request-info i {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    transform: rotate(90deg);
+    padding-left: 12px;
+}
+
+#overlay-bottom {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    bottom: 0%;
+    background: linear-gradient(transparent, black);
+}
+
+/* Design Footer */
+
+#footer-area {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#footer-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#footer-left .heading {
+
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#footer-left .item {
+    color: rgba(255, 255, 255, 0.421);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 12px;
+}
+
+
+#footer-right #footer-logo img {
+    width: 50px;
+    margin-top: 10px;
+}
+
+#footer-right #copyright {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.538);
+    margin-top: 10px;
+}
+
+#footer-right #footer-text {
+    text-align: end;
+    color: rgba(255, 255, 255, 0.499);
+    width: 60%;
+    line-height: 20px;
+    margin-top: 10px;
+}
