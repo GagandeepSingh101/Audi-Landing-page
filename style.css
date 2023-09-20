@@ -147,3 +147,82 @@
   text-align: center;
   line-height: 25px;
 }
+
+/* Performance info design  */
+
+#performance-info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#performance-info-text {
+    height: 100vh;
+    width: 100vw;
+}
+
+#performance-info-img {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 40vw;
+    left: 1%;
+    top: 20%;
+    transform: translate(0 50%);
+}
+
+#performance-info-text {
+    position: absolute;
+    transform: translate(50%, 25%);
+    z-index: 1;
+    height: 70vh;
+    width: 30vw;
+}
+
+#performance-info-text-heading {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 52px;
+}
+
+#performance-info-text-heading span {
+    z-index: -1;
+    position: absolute;
+    left: -4%;
+    padding: 0 10px;
+    background-color: red;
+}
+
+#performance-info-text-des {
+    color: rgba(255, 255, 255, 0.815);
+    text-align: justify;
+    line-height: 30px;
+}
+
+#performance-info-into-number {
+    display: flex;
+    margin-top: 10%;
+}
+
+#performance-info-into-number .info-num {
+    position: relative;
+    margin-right: 80px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#performance-info-into-number .info-num sup {
+    color: rgba(255, 255, 255, 0.815);
+    position: absolute;
+    font-size: 15px;
+    top: 10%;
+    width: 70px;
+    margin-left: 5px;
+}
+
+#performance-info-into-number .info-num sup hr {
+    border: 2px solid red;
+    margin-top: 13px;
+    width: 10px;
+}
