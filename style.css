@@ -1,109 +1,149 @@
 /* Normalize CSS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    ;
-    scroll-behavior: hidden;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
 *::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
-
 
 /* Home Page Design */
 #homepage {
-    position: relative;
-    height: 110vh;
-    background-position: center;
-    background-size: cover;
-    background-image: url(https://wallpapercave.com/wp/wp4775115.jpg);
+  position: relative;
+  height: 110vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://wallpapercave.com/wp/wp4775115.jpg);
 }
-
 
 /* Nav Bar Design  */
 #nav-bar {
-    padding: 20px;
+  padding: 20px;
 }
 
 #nav-bar #nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 #nav-bar #nav-list .logo {
-    width: 60vw;
+  width: 60vw;
 }
 
 #nav-bar #nav-list .logo img {
-    width: 50px
+  width: 50px;
 }
 
 #nav-bar .list-item {
-    text-transform: uppercase;
-    margin-right: 20px;
-    padding-bottom: 5px;
-
+  text-transform: uppercase;
+  margin-right: 20px;
+  padding-bottom: 5px;
 }
 
 #nav-bar .list-item:hover {
-    border-bottom: 2px solid white;
-
+  border-bottom: 2px solid white;
 }
 
 #nav-bar .list-item-icon {
-    padding-right: 20px;
-    padding-bottom: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
 }
 
 #nav-bar .list-item-icon:hover {
-    transform: scale(1.2);
-    transition: all 0.1 ease;
+  transform: scale(1.2);
+  transition: all 0.1 ease;
 }
 
 /* Hompage quotes Text Styling */
 
 #homepage-quotes-area {
-    position: absolute;
-    right: 20%;
-    top: 20%;
-    transform: translate(50%, 50%);
-    width: 35%;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  transform: translate(50%, 50%);
+  width: 35%;
 }
 
 #homepage-quotes-heading {
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 300;
-    letter-spacing: 2px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 #homepage-quotes-desc {
-    color: rgba(255, 255, 255, 0.815);
-    line-height: 25px;
+  color: rgba(255, 255, 255, 0.815);
+  line-height: 25px;
 }
 
 #overlay-bottom {
-    position: absolute;
-    height: 50%;
-    width: 100%;
-    bottom: 0%;
-    background: linear-gradient(transparent, black);
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0%;
+  background: linear-gradient(transparent, black);
 }
 
+/* intro section design  */
+
+#intro {
+  position: relative;
+  background-image: url("https://i0.wp.com/goldwallpapers.com/uploads/posts/audi-a5-wallpaper/audi_a5_wallpaper_010.jpg");
+  background-size: cover;
+  background-position: bottom bottom;
+  height: 100vh;
+}
+
+#intro .overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.662);
+}
+
+#intro-text-area {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  width: 40%;
+  transform: translate(-50%, -7%);
+}
+
+#intro-heading {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#intro-heading span {
+  z-index: -1;
+  position: absolute;
+  left: 21%;
+  padding: 0 10px;
+  background-color: red;
+}
+
+#intro-des {
+  color: rgba(255, 255, 255, 0.815);
+  text-align: center;
+  line-height: 25px;
+}
